@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPLN4Gp-byQ"
+#define BLYNK_TEMPLATE_ID "..."
 #define BLYNK_DEVICE_NAME "Smart extractor fan"
-#define BLYNK_AUTH_TOKEN "thD0xHSeUIEDHE_3MsBYWkcNJDQJlYGt"
+#define BLYNK_AUTH_TOKEN "..."
 
 #define BLYNK_PRINT Serial
 
@@ -11,8 +11,8 @@ void ICACHE_RAM_ATTR buttControl();
 
 BlynkTimer timer;
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "Galaxy S21 FE 5G";    // type your wifi name
-char pass[] = "12345678";  // type your wifi password
+char ssid[] = "network";    // type your wifi name
+char pass[] = "pass";  // type your wifi password
 
 
 #define DHT11PIN D1  //D1
